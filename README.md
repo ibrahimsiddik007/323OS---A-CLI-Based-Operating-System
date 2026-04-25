@@ -26,7 +26,7 @@ Replace `VIDEO_ID` with your YouTube video id.
 
 ## Build and Run
 
-### Prereqs
+### Prerequisite
 - `nasm`
 - `gcc` with 32-bit support
 - `ld`
