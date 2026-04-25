@@ -18,10 +18,9 @@ A small OS for x86 (32-bit) written in C and Assembly. It boots via GRUB, brings
 
 
 ## Video
-Replace `VIDEO_ID` with your YouTube video id.
 
 ```html
-<iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" title="323OS Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Q6ztMZQLFjI" title="323OS Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ```
 
 ## Build and Run
