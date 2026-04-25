@@ -18,7 +18,6 @@ A small OS for x86 (32-bit) written in C and Assembly. It boots via GRUB, brings
 
 
 ## Video
-
 ```html
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Q6ztMZQLFjI" title="323OS Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ```
