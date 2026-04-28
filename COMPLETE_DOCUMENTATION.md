@@ -44,7 +44,7 @@ If you only have 60 seconds, skim the bullet points above, then read the “Boot
 - **CPU protection mechanisms** (GDT, IDT)
 - **Hardware interrupt handling** (Timer, Keyboard)
 - **Device drivers** (VGA display, ATA hard disk, Keyboard)
-- **Persistent file storage** (Custom filesystem called DodoFS)
+- **Persistent file storage** (Custom filesystem called 323FS)
 - **Multi-user authentication**
 - **Interactive shell** with built-in commands
 
@@ -61,7 +61,7 @@ Kernel (kernel.asm → kernel_main)
 ├─────────────────────────────────────┤
 │  Drivers (Display, ATA Disk, KB)    │
 ├─────────────────────────────────────┤
-│  Filesystem (DodoFS)                │
+│  Filesystem (323FS)                │
 ├─────────────────────────────────────┤
 │  Application Layer (Shell, Editor)  │
 └─────────────────────────────────────┘
@@ -705,7 +705,7 @@ int ata_write_sector(uint32_t lba, uint8_t* buffer) {
 
 ---
 
-## Filesystem (DodoFS)
+## Filesystem (323FS)
 
 **File: drivers/filesystem.c**
 
