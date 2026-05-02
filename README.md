@@ -59,7 +59,6 @@ This builds the kernel, creates `323os.iso`, and launches QEMU. A persistent `di
 - drivers/ - display, ATA, filesystem
 - kernel/ - boot entry + kernel main
 - logs/ - kernel logging
-- docs/ - deeper technical notes
  
 ## See the md files for more details
 
